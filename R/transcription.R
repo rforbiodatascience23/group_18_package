@@ -5,7 +5,7 @@
 #' @return Returns a RNA sequence of the inserted DNA sequence
 #' @export
 #'
-transcripted_sequence <- function(DNA_sequence){
+transcription <- function(DNA_sequence){
   RNA_sequence <- gsub("T", "U", DNA_sequence)
   return(RNA_sequence)
 }
