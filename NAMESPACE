@@ -2,3 +2,4 @@
 
 export(aa_codon_translation)
 export(generated_sequence)
+export(transcripted_sequence)
