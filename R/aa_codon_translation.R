@@ -5,8 +5,7 @@
 #'
 #' @return codons sequence corresponding to the aa original sequence
 #' @export
-
-aa_to_codons <- function(aa_seq, start = 1){
+aa_codon_translation <- function(aa_seq, start = 1){
   seq_length <- nchar(aa_seq)
   codons <- substring(aa_seq,
                       first = seq(from = start, to = seq_length-3+1, by = 3),
