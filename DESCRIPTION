@@ -2,7 +2,27 @@ Package: centdog
 Type: Package
 Title: What the Package Does (Title Case)
 Version: 0.1.0
-Author: Who wrote it
+Authors@R:
+  c(person(given = "Laia",
+           family = "Devesa Carretero",
+           role = c("cre"), # There must be a "cre", but there can only be one
+           email = "s222800@dtu.dk"), 
+    person(given = "Erini",
+           family = "Giannakopoulou",
+           role = "aut",
+           email = "s230204@dtu.dk"))
+    person(given = "Minke",
+           family = "Oostermeijer",
+           role = "aut",
+           email = "s222854@dtu.dk"))
+    person(given = "Cátia",
+           family = "Baptista",
+           role = "aut",
+           email = "s213049@dtu.dk"))
+     person(given = "Nova",
+           family = "Forbes",
+           role = "aut",
+           email = "s222373@dtu.dk"))
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
