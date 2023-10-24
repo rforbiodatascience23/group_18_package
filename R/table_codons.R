@@ -1,4 +1,4 @@
-c("UUU" = "F", "UCU" = "S", "UAU" = "Y", "UGU" = "C",
+table_codons <- c("UUU" = "F", "UCU" = "S", "UAU" = "Y", "UGU" = "C",
   "UUC" = "F", "UCC" = "S", "UAC" = "Y", "UGC" = "C",
   "UUA" = "L", "UCA" = "S", "UAA" = "_", "UGA" = "_",
   "UUG" = "L", "UCG" = "S", "UAG" = "_", "UGG" = "W",
