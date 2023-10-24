@@ -4,13 +4,13 @@
 \alias{plot_aa_frequence}
 \title{Frequency of amino acids}
 \usage{
-plot_aa_frequence(name_me2)
+plot_aa_frequence(amino_acid_sequence)
 }
 \arguments{
-\item{name_me2}{}
+\item{amino_acid_sequence}{}
 }
 \value{
-name_me4 a plot with the amino acid frequencies
+amino_acid_frequency_plot a plot with the amino acid counts of a given amino acid sequence
 }
 \description{
 Frequency of amino acids
