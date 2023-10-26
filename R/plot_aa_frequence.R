@@ -8,9 +8,6 @@
 #'
 #' @export
 #'
-#' @import ggplot2
-#' @import stringr
-#'
 plot_aa_frequency <- function(amino_acid_sequence) {
   # Split the amino acid sequence into individual amino acids and get unique values
   amino_acid <- amino_acid_sequence |>
