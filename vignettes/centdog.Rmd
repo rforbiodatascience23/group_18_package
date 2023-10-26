@@ -1,0 +1,19 @@
+---
+title: "centdog"
+output: rmarkdown::pdf_document
+vignette: >
+  %\VignetteIndexEntry{centdog}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+The package is about the central dogma of Molecular Biology. The first function generates a DNA sequence as a character string.The second function does the transcription, in which an RNA copy of a gene's DNA sequence is made.The third function is about the splicing of RNA sequence. The fourth function is about translation, in which proteins are produced using RNA. The fifth function generates a bar plot in which we count the frequency of each amino acid.
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(centdog)
+```

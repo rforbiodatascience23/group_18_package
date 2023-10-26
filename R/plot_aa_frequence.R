@@ -36,3 +36,4 @@ plot_aa_frequency <- function(amino_acid_sequence) {
   # Return the amino acid frequency plot
   return(amino_acid_frequency_plot)
 }
+
