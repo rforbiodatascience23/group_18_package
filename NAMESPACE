@@ -2,6 +2,8 @@
 
 export(aa_codon_translation)
 export(generated_sequence)
-export(plot_aa_frequence)
+export(plot_aa_frequency)
 export(transcription)
 export(translation)
+import(ggplot2)
+import(stringr)
