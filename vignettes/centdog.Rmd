@@ -7,6 +7,7 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 Group 18
+
 The package is about the central dogma of Molecular Biology. The first function generates a DNA sequence as a character string. Therefore, we named it generate_sequence. The second function does the transcription, in which an RNA copy of a gene's DNA sequence is made. We named it transcription. The third function is about the splicing of RNA sequence. So, we named it aa_codon_translation. The fourth function is about translation, in which proteins are produced using RNA. We named it translation. The fifth function generates a bar plot in which we count the frequency of each amino acid.The last function was named plot_aa_frequence.
 
 The packages “ggplot2” and “stringr” were added as dependencies by using “use_package” function from the “usethis” package. By writing the following in the console:
