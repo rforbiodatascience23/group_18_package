@@ -8,9 +8,18 @@ vignette: >
 ---
 The package is about the central dogma of Molecular Biology. The first function generates a DNA sequence as a character string. Therefore, we named it generate_sequence. The second function does the transcription, in which an RNA copy of a gene's DNA sequence is made. We named it transcription. The third function is about the splicing of RNA sequence. So, we named it aa_codon_translation. The fourth function is about translation, in which proteins are produced using RNA. We named it translation. The fifth function generates a bar plot in which we count the frequency of each amino acid.The last function was named plot_aa_frequence.
 
+The packages “ggplot2” and “stringr” were added as dependencies by using “use_package” function from the “usethis” package. By writing the following in the console:
+ usethis::use_package("ggplot2", min_version = TRUE)
+usethis::use_package("stringr", min_version = TRUE)
+The dependencies were added to “Imports” field in DESCRIPTION.
+
 Fewer dependencies simplify the package's codebase making it easier to understand and maintain. Also, it performs better and it is faster.
 
-The package::function() directly calls the function from the external package.
+The main different between these two ways of adding a function from a repository is based on ambiguity. The first option, using ‘@importFrom package function’, can lead to the overwriting of the function if another function is loaded from another package. When two function have the same name, even though they come from different packages, only the last one will remain, and the first function won’t be stored. On the other side, by using the ‘package::function()’ method to load and call a function, we keep track of the package of origin so functions won’t be overwritten, and can share the same name without leading to problematic situations.
+
+This package could be used by researchers and bioinformaticians to analyze and interpret biological data. It can also be useful for predicting protein structures and visualise DNA, RNA, protein sequences as well as the frequency of the amino acids in the protein sequences using plots.
+
+We could add visualising widgets as extra functions that let us interpret and present our results better. Another possibility could be a function that add the location of exons and introns in an RNA sequence.
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
