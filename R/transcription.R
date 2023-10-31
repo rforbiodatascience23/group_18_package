@@ -9,3 +9,4 @@ transcription <- function(DNA_sequence){
   RNA_sequence <- gsub("T", "U", DNA_sequence)
   return(RNA_sequence)
 }
+

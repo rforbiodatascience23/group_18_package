@@ -12,3 +12,4 @@ aa_codon_translation <- function(aa_seq, start = 1){
                       last = seq(from = 3+start-1, to = seq_length, by = 3))
   return(codons)
 }
+

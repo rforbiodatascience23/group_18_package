@@ -10,3 +10,4 @@ generated_sequence <- function(number_nucleotides){
   clean_sequence <- paste0(selected_sequence, collapse = "")
   return(clean_sequence)
 }
+
